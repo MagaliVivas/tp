@@ -27,17 +27,16 @@ https://drive.google.com/file/d/1e0kpQVyMyDDLtTpLmiXh51QIB1wtrdew/view?usp=drive
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Refugio <br>2. CRUD Especie<br>
-|CRUD dependiente|1. CRUD Mascota {depende de} CRUD Especie<br>
+|CRUD simple|1. CRUD Rol <br>2. CRUD Especie<br>
+|CRUD dependiente|1. CRUD Usuario {depende de} CRUD Rol <br>2. CRUD Mascota {depende de} CRUD Especie<br>
 |Listado<br>+<br>detalle| 1. Listado de mascotas filtrado por especie, tamaño, caracteristicas y ubicación del refugio => detalle muestra ficha completa de la mascota<br>
-|CUU/Epic|1. Postularse para adoptar una mascota<br>
-
+|CUU/Epic|1. Postularse para adoptar una mascota<br> 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Refugio <br>2. CRUD Especie<br>4. CRUD Mascota<br>5. CRUD Candidato<br>6. CRUD Caracteristica<br>7. CRUD solicitudAdopcion<br>
-|CUU/Epic|1. Postularse para adoptar una mascota<br>2. Como refugio, revisar postulaciones recibidas<br>
+|CRUD |1. CRUD Rol <br>2. CRUD Especie<br>4. CRUD Mascota<br>5. CRUD Usuario<br>6. CRUD Caracteristica<br>7. CRUD solicitudAdopcion<br>
+|CUU/Epic|1. Postularse para adoptar una mascota<br> 2. Realizar donación a refugio mediante link de pago
 
 
 ### Alcance Adicional Voluntario
@@ -46,6 +45,6 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Listado de mascotas adoptadas, con filtros por fecha o tipo <br>2. Listado de postulaciones realizadas por un usuario |
+|Listados |1. Listado de mascotas adoptadas, con filtros por fecha o tipo <br>2. Listado de postulaciones realizadas por un usuario  <br>3. Listado de donaciones realizadas por un usuario|
 |Otros|1. Envío de notificaciones por mail: cuando cambia el estado de una postulación, cuando se recibe una nueva solicitud de adoptación|
 
