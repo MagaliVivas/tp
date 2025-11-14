@@ -35,5 +35,8 @@ Instalar dependencias. Comando:
 npm install
 Configurar Variables de Entorno
 
+Este proyecto usa MikroORM para manejar la base de datos.
+Si es la primera vez que se inciia el backend, se deben aplicar las migraciones existentes:
 npm run dev
+
 # Inicia la aplicación React en modo desarrollo (http://localhost:5173)
